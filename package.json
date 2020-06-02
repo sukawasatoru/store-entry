@@ -1,0 +1,19 @@
+{
+  "name": "store-entry",
+  "version": "1.0.0",
+  "description": "",
+  "author": {
+    "name": "Satoru Sukawa",
+    "email": "sukawasatoru.github@outlook.jp",
+    "url": "https://github.com/sukawasatoru"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sukawasatoru/store-entry.git"
+  },
+  "license": "(Apache-2.0 OR CC0-1.0)",
+  "private": true,
+  "dependencies": {
+    "typescript": "^3.9.3"
+  }
+}
