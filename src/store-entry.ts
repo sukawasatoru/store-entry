@@ -22,7 +22,7 @@ export const storeValue = <T>(entry: StoreEntry<T>, value: T): void => {
     localStorage.setItem(entry.key, val);
 };
 
-export default class StoreEntry<T> {
+export class StoreEntry<T> {
     readonly key: string;
     readonly serializer: Serializer<T>;
     readonly deserializer: Deserializer<T>;
